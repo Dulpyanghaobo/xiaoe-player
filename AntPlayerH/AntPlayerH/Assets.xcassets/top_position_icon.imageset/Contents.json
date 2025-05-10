@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "播放器-弹幕滚动（开）_441.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "播放器-弹幕滚动（开）_441@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "播放器-弹幕滚动（开）_441@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": 200,
+  "message": "Fetched public notes successfully",
+  "data": [
+    {
+      "records": [
+        {
+          "courseType_dictText": "视频课程",
+          "courseCatalogName": "第1章 入门",
+          "courseType": 1,
+          "idCode": "NOTE001",
+          "courseCatalogId": 101,
+          "aiContent": "AI摘要：这是一个课程笔记。",
+          "contentTime": "00:05:12",
+          "remark": "这是一个学生做的公开笔记",
+          "userName": "小明",
+          "userId": 1001,
+          "content": "在这一节我们学习了Swift基础语法。",
+          "merchantName": "Mock商家",
+          "commentStatus": 1,
+          "likeNum": 12,
+          "noteType": 0,
+          "merchantId": 501,
+          "courseInfoId": 301,
+          "gzNum": 3,
+          "courseInfoName": "Swift开发入门",
+          "id": 9001
+        }
+      ],
+      "total": 1,
+      "size": 10,
+      "current": 1,
+      "pages": 1
+    }
+  ]
+}

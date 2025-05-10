@@ -1,0 +1,5 @@
+{
+  "status": 200,
+  "message": "Real SDK sign",
+  "data": "sdk_signature_abc123"
+}

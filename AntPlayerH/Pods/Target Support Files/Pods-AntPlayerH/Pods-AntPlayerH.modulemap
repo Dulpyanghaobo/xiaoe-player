@@ -1,0 +1,6 @@
+framework module Pods_AntPlayerH {
+  umbrella header "Pods-AntPlayerH-umbrella.h"
+
+  export *
+  module * { export * }
+}

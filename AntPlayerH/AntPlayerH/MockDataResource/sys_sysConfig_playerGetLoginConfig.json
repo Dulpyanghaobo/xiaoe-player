@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "message": "User verified successfully",
+  "data": {
+    "liji_register": "https://jnplayer.com",
+    "login_logo": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi-1.lanrentuku.com%2F2020%2F11%2F6%2F9232f107-4dac-4006-9c7e-e825df5e52e1.png%3FimageView2%2F2%2Fw%2F500&refer=http%3A%2F%2Fi-1.lanrentuku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1652857038&t=83ba6c42edec38afee64d52777ed7d02",
+    "copyright_company_cn": "湖南省锐翊信息科技有限责任公司 版权所有",
+    "personal_protocol_url": "https://beian.miit.gov.cn/#/Integrated/lawStatute",
+    "service_protocol_url": "https://beian.miit.gov.cn/#/Integrated/lawStatute",
+    "protocol_text": "进入牛盾播放器即代表您同意《牛盾播播放服务协议》与《个人信息保护政策》",
+    "player_name": "牛盾播放器",
+    "copyright_company": "Hunan Ruiyi Information Technology Co., LTD"
+  }
+}
+

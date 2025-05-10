@@ -1,0 +1,21 @@
+${PODS_ROOT}/Target Support Files/Pods-AntPlayerH-AntPlayerHUITests/Pods-AntPlayerH-AntPlayerHUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AHDownloadButton/AHDownloadButton.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BarrageRenderer/BarrageRenderer.framework
+${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework
+${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/STTextView/STTextView.framework
+${BUILT_PRODUCTS_DIR}/ScreenshotPreventing/ScreenshotPreventing.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${PODS_ROOT}/TXIMSDK_Plus_iOS/ImSDK_Plus.framework
+${BUILT_PRODUCTS_DIR}/Tiercel/Tiercel.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework
+${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework
+${BUILT_PRODUCTS_DIR}/ZVActivityIndicatorView/ZVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/ZVRefreshing/ZVRefreshing.framework

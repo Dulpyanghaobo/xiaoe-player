@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "message": "Download key info fetched successfully",
+  "data": {
+    "fileUrl": "https://playgrounds-cdn.apple.com/assets/creek/index.m3u8"
+  }
+}

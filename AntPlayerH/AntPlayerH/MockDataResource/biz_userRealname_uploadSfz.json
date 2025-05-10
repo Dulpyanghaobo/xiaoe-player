@@ -1,0 +1,8 @@
+{
+  "status": 200,
+  "message": "ID uploaded",
+  "data": {
+    "name": "张三",
+    "idNum": "123456789012345678"
+  }
+}

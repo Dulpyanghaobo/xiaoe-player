@@ -1,0 +1,27 @@
+{
+  "status": 200,
+  "message": "Phone login successful",
+  "data": {
+    "token": "mocked_token_phone",
+    "userInfo": {
+      "activationTime": "2024-01-01",
+      "avatar": "",
+      "bindWechat": false,
+      "description": "",
+      "email": "",
+      "expireTime": "2099-12-31",
+      "id": 2,
+      "lastLoginTime": "2024-07-01",
+      "merchantId": 101,
+      "merchantName": "Mock Merchant",
+      "mobile": "1234567890",
+      "newPurchase": true,
+      "realname": "Phone User",
+      "sex": 0,
+      "userIdentity": "student",
+      "username": "phoneuser",
+      "versionLevel": 1
+    },
+    "menus": ["home", "profile"]
+  }
+}

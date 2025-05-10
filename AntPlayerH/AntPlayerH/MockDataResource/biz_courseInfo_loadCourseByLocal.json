@@ -1,0 +1,38 @@
+{
+  "status": 200,
+  "message": "Video player data loaded successfully",
+  "data": {
+    "courseCatalogId": 1001,
+    "catalogIdCode": "CATALOG001",
+    "sort": 1,
+    "courseType": 2,
+    "merchantId": 301,
+    "catalogName": "第1章 Swift基础",
+    "coverUrl": "https://example.com/cover.png",
+    "courseNums": 5,
+    "studentNums": 1200,
+    "playNums": 4500,
+    "courseInfos": [
+      {
+        "courseInfoIdCode": "COURSE001",
+        "courseCatalogId": 1001,
+        "courseInfoId": 5001,
+        "sort": 1,
+        "courseType": 2,
+        "merchantId": 301,
+        "courseName": "Swift语法入门",
+        "courseDesc": "学习Swift的基本语法和结构。",
+        "coverUrl": "https://example.com/course1.png",
+        "whenLong": 600,
+        "videoExt": ".mp4",
+        "videoSize": 102400000,
+        "videoSizeStr": "97.7MB",
+        "playLastTime": "2024-07-01T10:00:00",
+        "videoLastPlayTime": 120,
+        "accuPlayDuration": 300,
+        "playRate": 80,
+        "clientType": "iOS"
+      }
+    ]
+  }
+}

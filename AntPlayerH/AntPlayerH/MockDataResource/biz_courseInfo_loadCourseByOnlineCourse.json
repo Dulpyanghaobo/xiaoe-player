@@ -1,0 +1,39 @@
+{
+  "status": 200,
+  "message": "Online courses fetched successfully",
+  "data": [
+    {
+      "courseCatalogId": 1001,
+      "sort": 1,
+      "courseType": 2,
+      "merchantId": 301,
+      "catalogName": "iOS开发基础课程",
+      "coverUrl": "https://example.com/catalog-cover.png",
+      "courseNums": 3,
+      "studentNums": 800,
+      "playNums": 3500,
+      "courseInfos": [
+        {
+          "courseInfoIdCode": "COURSE002",
+          "courseCatalogId": 1001,
+          "courseInfoId": 6001,
+          "sort": 1,
+          "courseType": 2,
+          "merchantId": 301,
+          "courseName": "Xcode使用简介",
+          "courseDesc": "了解Xcode基本功能与开发流程。",
+          "coverUrl": "https://example.com/course2.png",
+          "whenLong": 900,
+          "videoExt": ".mp4",
+          "videoSize": 120000000,
+          "videoSizeStr": "114.4MB",
+          "playLastTime": "2024-07-05T09:00:00",
+          "videoLastPlayTime": 300,
+          "accuPlayDuration": 600,
+          "playRate": 100,
+          "clientType": "iOS"
+        }
+      ]
+    }
+  ]
+}

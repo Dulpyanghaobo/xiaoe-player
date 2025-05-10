@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '12.0'
+
+target 'AntPlayerH' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AntPlayerH
+  pod 'Moya'
+  pod 'Kingfisher'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SnapKit'
+  pod 'SwiftyJSON'
+  pod 'TXIMSDK_iOS'
+  pod 'ZVRefreshing'
+  pod 'STTextView'
+  pod 'XLActionController'
+  pod 'Toast-Swift'
+  pod 'Tiercel'
+  pod 'JXSegmentedView'
+  pod 'BarrageRenderer'
+  pod 'AHDownloadButton'
+  pod 'ScreenshotPreventing'
+  pod 'GCDWebServer'
+  pod 'TencentCloudHuiyanSDKFace_framework', :path=> './TencentCloudHuiyanSDKFace_framework'
+  target 'AntPlayerHTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AntPlayerHUITests' do
+    # Pods for testing
+  end
+  
+
+
+end

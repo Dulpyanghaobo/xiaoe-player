@@ -1,0 +1,6 @@
+framework module ScreenshotPreventing {
+  umbrella header "ScreenshotPreventing-umbrella.h"
+
+  export *
+  module * { export * }
+}

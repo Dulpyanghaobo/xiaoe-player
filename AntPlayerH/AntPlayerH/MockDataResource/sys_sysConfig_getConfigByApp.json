@@ -1,0 +1,7 @@
+{
+  "status": 200,
+  "message": "App config fetched successfully",
+  "data": {
+    "helper_url": "https://baidu.com"
+  }
+}

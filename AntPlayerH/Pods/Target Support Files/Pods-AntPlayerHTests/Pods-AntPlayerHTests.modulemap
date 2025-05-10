@@ -1,0 +1,6 @@
+framework module Pods_AntPlayerHTests {
+  umbrella header "Pods-AntPlayerHTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

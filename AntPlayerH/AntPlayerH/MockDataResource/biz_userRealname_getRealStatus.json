@@ -1,0 +1,12 @@
+{
+  "status": 200,
+  "message": "Real status retrieved successfully",
+  "data": {
+    "status": 1,
+    "info": {
+      "name": "李雷",
+      "idNum": "410123199001011234",
+      "viaBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA"
+    }
+  }
+}

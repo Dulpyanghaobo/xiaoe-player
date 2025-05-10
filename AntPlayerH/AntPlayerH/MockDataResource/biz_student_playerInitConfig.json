@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "message": "Mock data for biz_student_playerInitConfig",
+  "data": {
+    "forceRealName": true,
+    "forceBindPhone": false,
+    "allowedUnbindDevice": true,
+    "allowedVideoCapture": false,
+    "configRealStatus": true,
+    "configBindPhone": false
+  }
+}

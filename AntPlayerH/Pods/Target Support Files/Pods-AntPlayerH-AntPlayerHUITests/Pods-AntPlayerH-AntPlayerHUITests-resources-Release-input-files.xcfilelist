@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-AntPlayerH-AntPlayerHUITests/Pods-AntPlayerH-AntPlayerHUITests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/TXIMSDK_Plus_iOS/TXIMSDK_Plus_iOS_Privacy.bundle
+${PODS_ROOT}/../TencentCloudHuiyanSDKFace_framework/Resources/face-tracker-v003.bundle
+${PODS_ROOT}/../TencentCloudHuiyanSDKFace_framework/Resources/TencentCloudHuiyanSDKFace.bundle
+${PODS_ROOT}/../TencentCloudHuiyanSDKFace_framework/Resources/TencentCloudHuiyanSDKWill.bundle

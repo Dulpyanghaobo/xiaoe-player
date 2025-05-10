@@ -1,0 +1,48 @@
+{
+  "status": 200,
+  "message": "Login successful",
+  "data": {
+    "authorities": [],
+    "menus": ["home", "settings"],
+    "playerSdkInfoVO": {
+      "accessKey": "ACCESS_KEY_EXAMPLE",
+      "initUri": "https://init.player.sdk"
+    },
+    "roles": [{"roleCode": "admin"}],
+    "simplicityMenuList": [],
+    "studentSettingVO": {
+      "allowedPcDisplaysNum": 2,
+      "allowUnbindDevice": true,
+      "allowVideoCapture": true,
+      "audioRepeat": true,
+      "expireDate": "2099-12-31",
+      "focePhone": false,
+      "forceRealname": false,
+      "id": 1,
+      "idCode": "CODE001",
+      "merchantId": 101,
+      "remark": "Student remark",
+      "studentId": 999
+    },
+    "token": "mocked_token_123",
+    "userInfo": {
+      "activationTime": "2024-01-01",
+      "avatar": "https://example.com/avatar.png",
+      "bindWechat": true,
+      "description": "Mocked user",
+      "email": "user@example.com",
+      "expireTime": "2099-12-31",
+      "id": 1,
+      "lastLoginTime": "2024-07-01",
+      "merchantId": 101,
+      "merchantName": "Mock Merchant",
+      "mobile": "1234567890",
+      "newPurchase": false,
+      "realname": "Test User",
+      "sex": 1,
+      "userIdentity": "student",
+      "username": "testuser",
+      "versionLevel": 1
+    }
+  }
+}

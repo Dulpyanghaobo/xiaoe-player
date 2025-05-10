@@ -1,0 +1,14 @@
+{
+  "status": 200,
+  "message": "Face SDK sign returned",
+  "data": {
+    "faceId": "FACE123",
+    "agreementNo": "AGREE123",
+    "openApiAppId": "APPID",
+    "openApiAppVersion": "1.0",
+    "openApiNonce": "NONCE123",
+    "openApiUserId": "USER123",
+    "keyLicence": "KEYLICENSE123",
+    "sign": "SIGNATURE123"
+  }
+}

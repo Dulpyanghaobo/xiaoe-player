@@ -1,0 +1,8 @@
+{
+  "status": 200,
+  "message": "User verified successfully",
+  "data": {
+      "ik": "12345678901234567890123456789012",
+      "iv": "abcdef1234567890"
+  }
+}

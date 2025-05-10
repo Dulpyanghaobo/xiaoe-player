@@ -1,0 +1,8 @@
+{
+  "status": 200,
+  "message": "User verified successfully",
+  "data": {
+      "secretKey": "123123",
+      "appid": 12312
+  }
+}
