@@ -98,6 +98,36 @@
             endingLineNumber = "33"
             landmarkName = "getDeviceList(completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B733AD20-79F9-4F1B-856E-DE73F9774A76 - 88f28faf27d47162"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AntPlayerH.ApiResponse&lt;AntPlayerH.DeviceListResponse&gt;, AntPlayerH.NetworkError&gt;) -&gt; () in AntPlayerH.DeviceManager.getDeviceList(completion: (Swift.Result&lt;AntPlayerH.ApiResponse&lt;AntPlayerH.DeviceListResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AntPlayerH.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i564407/Documents/GitHub/xiaoe-player/AntPlayerH/AntPlayerH/Network/Service/V1/Device/DeviceManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "B733AD20-79F9-4F1B-856E-DE73F9774A76 - 4c64535f0c444ccd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AntPlayerH.NetworkError) -&gt; Swift.Error in closure #1 (Swift.Result&lt;AntPlayerH.ApiResponse&lt;AntPlayerH.DeviceListResponse&gt;, AntPlayerH.NetworkError&gt;) -&gt; () in AntPlayerH.DeviceManager.getDeviceList(completion: (Swift.Result&lt;AntPlayerH.ApiResponse&lt;AntPlayerH.DeviceListResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AntPlayerH.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i564407/Documents/GitHub/xiaoe-player/AntPlayerH/AntPlayerH/Network/Service/V1/Device/DeviceManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -258,6 +288,36 @@
             endingLineNumber = "125"
             landmarkName = "searchOnlineCourses(courseName:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A66F4D1-04E3-4826-B762-46D9AB3504B5 - 8e9ddaf1097bf1f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AntPlayerH.ApiResponse&lt;Swift.Array&lt;AntPlayerH.CourseInfo&gt;&gt;, Swift.Error&gt;) -&gt; () in AntPlayerH.CourseViewModel.searchOnlineCourses(courseName: Swift.String) -&gt; ()"
+                  moduleName = "AntPlayerH.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i564407/Documents/GitHub/xiaoe-player/AntPlayerH/AntPlayerH/Feature/Course/CourseViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125">
+               </Location>
+               <Location
+                  uuid = "5A66F4D1-04E3-4826-B762-46D9AB3504B5 - 8e9ddaf1097bf1f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AntPlayerH.ApiResponse&lt;Swift.Array&lt;AntPlayerH.CourseInfo&gt;&gt;, Swift.Error&gt;) -&gt; () in AntPlayerH.CourseViewModel.searchOnlineCourses(courseName: Swift.String) -&gt; ()"
+                  moduleName = "AntPlayerH.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i564407/Documents/GitHub/xiaoe-player/AntPlayerH/AntPlayerH/Feature/Course/CourseViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
