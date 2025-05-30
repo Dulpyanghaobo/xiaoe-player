@@ -64,6 +64,24 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "#!/bin/bash&#10;&#10;# &#x1f6e0;&#xfe0f; &#x8bbe;&#x7f6e;&#x6e90;&#x4ee3;&#x7801;&#x76ee;&#x5f55;&#10;ROOT_DIR=&quot;${SRCROOT}/AntPlayerH&quot;&#10;OUT_FILE=&quot;${ROOT_DIR}/antplayerh_file_tree.json&quot;&#10;&#10;# &#x6e05;&#x7a7a;&#x65e7;&#x6587;&#x4ef6;&#10;rm -f &quot;$OUT_FILE&quot;&#10;&#10;# &#x9012;&#x5f52;&#x751f;&#x6210; JSON &#x7684;&#x8f85;&#x52a9;&#x51fd;&#x6570;&#xff08;&#x5728; bash &#x4e2d;&#x4f7f;&#x7528; jq&#xff09;&#10;generate_json() {&#10;  local path=&quot;$1&quot;&#10;  local prefix=&quot;$2&quot;&#10;  local entries=()&#10;&#10;  for item in &quot;$path&quot;/*; do&#10;    if [ -d &quot;$item&quot; ]; then&#10;      sub_json=$(generate_json &quot;$item&quot; &quot;${prefix}  &quot;)&#10;      entries+=(&quot;{\&quot;type\&quot;:\&quot;directory\&quot;,\&quot;name\&quot;:\&quot;$(basename &quot;$item&quot;)\&quot;,\&quot;children\&quot;:$sub_json}&quot;)&#10;    elif [[ &quot;$item&quot; =~ \.(swift|h|m|xib)$ ]]; then&#10;      entries+=(&quot;{\&quot;type\&quot;:\&quot;file\&quot;,\&quot;name\&quot;:\&quot;$(basename &quot;$item&quot;)\&quot;}&quot;)&#10;    fi&#10;  done&#10;&#10;  # join with comma&#10;  printf &quot;[%s]&quot; &quot;$(IFS=,; echo &quot;${entries[*]}&quot;)&quot;&#10;}&#10;&#10;# &#x4e3b;&#x8c03;&#x7528;&#x903b;&#x8f91;&#10;result=$(generate_json &quot;$ROOT_DIR&quot;)&#10;echo &quot;$result&quot; &gt; &quot;$OUT_FILE&quot;&#10;&#10;echo &quot;&#x2705; Generated JSON file tree at $OUT_FILE&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "FA57E0552C46A64600602342"
+                     BuildableName = "AntPlayerH.app"
+                     BlueprintName = "AntPlayerH"
+                     ReferencedContainer = "container:AntPlayerH.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
