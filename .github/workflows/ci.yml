@@ -1,0 +1,59 @@
+name: iOS CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+
+    steps:
+      - name: 📦 Checkout source
+        uses: actions/checkout@v3
+
+      - name: 🛠 Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '15.3'
+
+      - name: 📥 Install dependencies
+        run: |
+          brew install swiftlint
+          pod install
+
+      - name: ✅ Run SwiftLint
+        run: swiftlint
+
+      - name: 🧱 Build and Test
+        run: |
+          xcodebuild clean test -workspace AntPlayerH.xcworkspace \
+            -scheme AntPlayerH \
+            -destination 'platform=iOS Simulator,name=iPhone 15' \
+            -enableCodeCoverage YES
+
+      - name: 📊 Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: 📦 Archive IPA (Optional)
+        run: |
+          xcodebuild -workspace AntPlayerH.xcworkspace \
+            -scheme AntPlayerH \
+            -sdk iphoneos \
+            -configuration Release \
+            -archivePath $PWD/build/AntPlayerH.xcarchive archive
+
+          xcodebuild -exportArchive \
+            -archivePath $PWD/build/AntPlayerH.xcarchive \
+            -exportPath $PWD/build/export \
+            -exportOptionsPlist ExportOptions.plist
+
+      - name: 🧳 Upload artifact (Optional)
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-artifact
+          path: build/export
