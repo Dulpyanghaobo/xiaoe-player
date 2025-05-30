@@ -1,0 +1,36 @@
+# .DS_Store
+.DS_Store
+
+# /Cubetree/.idea/
+/Cubetree/.idea/*
+/SuccessFactors/.idea/*
+/.idea/*
+
+# xcuserdata
+xcuserdata
+
+# project.xcworkspace
+project.xcworkspace
+
+# keep shared data(MOB-93560: files beneath xcshareddata folder is not actually being tracked and you may need manually git-commit your target file)
+!xcshareddata
+
+# Ignore build artefacts
+**/build/**
+
+# Ignore xccheckout
+*.xccheckout
+
+# Ignore gcno files
+*.gcno
+# Ignore log files
+*.log
+CarthageRoot/Carthage/*
+x86_64-apple-ios-simulator.swiftinterface.lock
+
+# Ignore lint report
+/StaticAnalysis/Linting/swiftlint_report.json
+Utilities/find_leaked_xml/.idea
+
+# Ignore temp Playgournd files
+/TempPlayground/**
