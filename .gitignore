@@ -5,8 +5,10 @@
 /Cubetree/.idea/*
 /SuccessFactors/.idea/*
 /.idea/*
-
-# xcuserdata
+# Ignore Xcode user state
+*.xcuserstate
+*.xcscmblueprint
+*.xcuserdata/
 xcuserdata
 
 # project.xcworkspace
@@ -34,4 +36,3 @@ Utilities/find_leaked_xml/.idea
 
 # Ignore temp Playgournd files
 /TempPlayground/**
-AntPlayerH/AntPlayerH.xcworkspace/xcuserdata/i564407.xcuserdatad/UserInterfaceState.xcuserstate
