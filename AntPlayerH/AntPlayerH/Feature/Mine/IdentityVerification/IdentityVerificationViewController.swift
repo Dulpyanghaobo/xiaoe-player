@@ -139,8 +139,8 @@ class IdentityVerificationViewController: BaseViewController {
             switch result {
             case .success(let response):
                 let model = response.data
-                let viewController = WBFaceViewController(faceSdkSignResponse: model)
-                self.navigationController?.pushViewController(viewController, animated: true)
+//                let viewController = WBFaceViewController(faceSdkSignResponse: model)
+//                self.navigationController?.pushViewController(viewController, animated: true)
             case .failure(let error):
                 print("Failed to fetch personal notes: \(error)")
             }

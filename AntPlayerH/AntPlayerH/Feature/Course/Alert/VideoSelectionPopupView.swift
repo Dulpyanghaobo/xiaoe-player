@@ -78,22 +78,22 @@ class VideoSelectionPopupView: UIView {
     }
 
     @objc private func networkTransferTapped() {
-        let fileServer = FileUploadServer.init()
-        let serverText = fileServer.startServer()
-        // 处理局域网传输逻辑
-        let popView = NetworkTransferContentView.init()
-        popView.configText(with: serverText ?? "")
-        fileServer.fileUploadCompletionHandler = { filePath in
-            DispatchQueue.main.async {
-                if let window = UIApplication.shared.currentKeyWindow {
-                    window.makeToast("文件已保存到: \(filePath)")
-                }
-            }
-        }
-        let popup = PopupView(contentView: popView, popupType: .center, animationType: .fade)
+//        let fileServer = FileUploadServer.init()
+//        let serverText = fileServer.startServer()
+//        // 处理局域网传输逻辑
+//        let popView = NetworkTransferContentView.init()
+//        popView.configText(with: serverText ?? "")
+//        fileServer.fileUploadCompletionHandler = { filePath in
+//            DispatchQueue.main.async {
+//                if let window = UIApplication.shared.currentKeyWindow {
+//                    window.makeToast("文件已保存到: \(filePath)")
+//                }
+//            }
+//        }
+//        let popup = PopupView(contentView: popView, popupType: .center, animationType: .fade)
 
         // 显示弹窗
-        PopupManager.shared.showPopup(popup)
+//        PopupManager.shared.showPopup(popup)
     }
 }
 

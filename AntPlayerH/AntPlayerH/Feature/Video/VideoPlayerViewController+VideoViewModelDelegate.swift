@@ -71,7 +71,7 @@ extension VideoPlayerViewController: VideoViewModelDelegate {
     }
     func didFetchDanmaku(_ danmaku: [DanmakuResponse]) {
         self.bulletCommentsView.updateBulletComments(danmaku)
-        barrageController.bulletComments = danmaku
+//        barrageController.bulletComments = danmaku
     }
     
     func didAddDanmaku(_ success: Bool) {

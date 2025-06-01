@@ -7,7 +7,7 @@
 
 import UIKit
 import SnapKit
-import Toast_Swift
+import Toast
 
 class FeedBackViewController: BaseViewController {
     let tableView = UITableView(frame: .zero, style: .grouped)

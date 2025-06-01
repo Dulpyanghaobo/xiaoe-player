@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 import Tiercel
-import ImSDK_Plus
+//import ImSDK_Plus
 import AVFoundation
 
 let appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVCapturePhotoCaptureDele
     }
     
     func applicationWillTerminate(_ application: UIApplication) {
-        V2TIMManager.sharedInstance()?.removeAdvancedMsgListener(listener: self)
+//        V2TIMManager.sharedInstance()?.removeAdvancedMsgListener(listener: self)
     }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         bindDevice()
@@ -128,65 +128,65 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVCapturePhotoCaptureDele
             switch result {
             case .success(let response):
                 print("Device bound successfully: \(response)")
-                V2TIMManager.sharedInstance()?.initSDK(response.data?.appid ?? 1400600351, config: V2TIMSDKConfig())
+//                V2TIMManager.sharedInstance()?.initSDK(response.data?.appid ?? 1400600351, config: V2TIMSDKConfig())
 
                 // 添加消息监听器
-                V2TIMManager.sharedInstance()?.addAdvancedMsgListener(listener: self)
+//                V2TIMManager.sharedInstance()?.addAdvancedMsgListener(listener: self)
             case .failure(let error):
                 print("Failed to bind device: \(error)")
             }
         }
     }
 }
-
-extension AppDelegate: V2TIMAdvancedMsgListener {
-    func onRecvNewMessage(_ msg: V2TIMMessage) {
-        if msg.elemType == .ELEM_TYPE_CUSTOM {
-            guard let data = msg.customElem?.data else { return }
-            if let instruction = String(data: data, encoding: .utf8) {
-                // 处理指令
-                handleInstruction(instruction)
-            }
-        }
-    }
-
-    private func handleInstruction(_ instruction: String) {
-        switch instruction {
-        case "close":
-            DispatchQueue.main.async {
-                UIApplication.shared.currentKeyWindow?.makeToast("关闭播放器")
-            }
-        case "rename":
-            UIApplication.shared.currentViewController?.navigationController?.pushViewController(IdentityVerificationViewController(), animated: true)
-        case "camera":
-            AVCaptureDevice.requestAccess(for: .video) { granted in
-                if granted {
-                    let photoSettings = AVCapturePhotoSettings()
-                    photoSettings.flashMode = .off // 关闭闪光灯
-                    photoSettings.isAutoStillImageStabilizationEnabled = true // 启用防抖
-                    photoSettings.isHighResolutionPhotoEnabled = true // 拍摄高分辨率照片
-
-                    let photoOutput = AVCapturePhotoOutput()
-                    photoOutput.capturePhoto(with: photoSettings, delegate: self)
-                } else {
-                    DispatchQueue.main.async {
-                        UIApplication.shared.currentKeyWindow?.makeToast("请打开权限")
-                    }
-                }
-            }
-        case "relogin":
-            UserDefaults.standard.removeObject(forKey: "userToken")
-            UserDefaults.standard.synchronize()
-            AuthManager().logout { result in
-                let loginVC = LoginViewController()
-                UIApplication.shared.currentViewController?.navigationController?.pushViewController(loginVC, animated: true)
-            }
-            // 强制重新登录
-        case "yuyin":
-            UIApplication.shared.currentViewController?.navigationController?.pushViewController(SpeechViewController(), animated: true)
-        default:
-            break
-        }
-    }
-}
-
+//
+//extension AppDelegate: V2TIMAdvancedMsgListener {
+//    func onRecvNewMessage(_ msg: V2TIMMessage) {
+//        if msg.elemType == .ELEM_TYPE_CUSTOM {
+//            guard let data = msg.customElem?.data else { return }
+//            if let instruction = String(data: data, encoding: .utf8) {
+//                // 处理指令
+//                handleInstruction(instruction)
+//            }
+//        }
+//    }
+//
+//    private func handleInstruction(_ instruction: String) {
+//        switch instruction {
+//        case "close":
+//            DispatchQueue.main.async {
+//                UIApplication.shared.currentKeyWindow?.makeToast("关闭播放器")
+//            }
+//        case "rename":
+//            UIApplication.shared.currentViewController?.navigationController?.pushViewController(IdentityVerificationViewController(), animated: true)
+//        case "camera":
+//            AVCaptureDevice.requestAccess(for: .video) { granted in
+//                if granted {
+//                    let photoSettings = AVCapturePhotoSettings()
+//                    photoSettings.flashMode = .off // 关闭闪光灯
+//                    photoSettings.isAutoStillImageStabilizationEnabled = true // 启用防抖
+//                    photoSettings.isHighResolutionPhotoEnabled = true // 拍摄高分辨率照片
+//
+//                    let photoOutput = AVCapturePhotoOutput()
+//                    photoOutput.capturePhoto(with: photoSettings, delegate: self)
+//                } else {
+//                    DispatchQueue.main.async {
+//                        UIApplication.shared.currentKeyWindow?.makeToast("请打开权限")
+//                    }
+//                }
+//            }
+//        case "relogin":
+//            UserDefaults.standard.removeObject(forKey: "userToken")
+//            UserDefaults.standard.synchronize()
+//            AuthManager().logout { result in
+//                let loginVC = LoginViewController()
+//                UIApplication.shared.currentViewController?.navigationController?.pushViewController(loginVC, animated: true)
+//            }
+//            // 强制重新登录
+//        case "yuyin":
+//            UIApplication.shared.currentViewController?.navigationController?.pushViewController(SpeechViewController(), animated: true)
+//        default:
+//            break
+//        }
+//    }
+//}
+//

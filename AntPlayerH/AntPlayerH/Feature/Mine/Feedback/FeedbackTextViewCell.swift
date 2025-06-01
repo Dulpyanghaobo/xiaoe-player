@@ -46,7 +46,6 @@ class FeedbackTextViewCell: UITableViewCell {
             make.bottom.equalToSuperview().inset(10)
         }
         
-        textView.placeholderColor = .secondaryLabel
         textView.delegate = self
         textView.backgroundColor = AppColors.primaryBackgroundColor
         textView.layer.cornerRadius = 8
@@ -56,7 +55,7 @@ class FeedbackTextViewCell: UITableViewCell {
     }
     
     func configure(with text: String) {
-        textView.placeholder = text
+        textView.text = text
     }
     
     func textViewDidBeginEditing(_ textView: UITextView) {

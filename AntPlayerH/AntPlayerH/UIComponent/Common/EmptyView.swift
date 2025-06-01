@@ -5,7 +5,6 @@
 //  Created by i564407 on 7/26/24.
 //
 import UIKit
-import SnapKit
 
 class EmptyView: UIView {
     private let imageView = UIImageView()

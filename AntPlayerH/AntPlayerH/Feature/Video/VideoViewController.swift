@@ -48,7 +48,7 @@ class VideoPlayerViewController: BaseViewController, VideoPlayerViewProtocol {
     var segmentedDtaSource: PlayerSegmentedTitleDataSource!
     
     var viewModel: VideoViewModel?
-    var barrageController = BarrageController()
+//    var barrageController = BarrageController()
     
     var titleLabel: UILabel = UILabel.init()
     
@@ -127,7 +127,7 @@ class VideoPlayerViewController: BaseViewController, VideoPlayerViewProtocol {
         view.insertSubview(aiWaterView, aboveSubview: playerView)
 
         self.adverView.isHidden = true
-        self.player?.player?.view.addSubview(barrageController.view)
+//        self.player?.player?.view.addSubview(barrageController.view)
         // Setup back button action
         backButton.addTarget(self, action: #selector(backButtonTapped), for: .touchUpInside)
         
@@ -211,10 +211,10 @@ class VideoPlayerViewController: BaseViewController, VideoPlayerViewProtocol {
             make.top.equalTo(segmentedView.snp.bottom)
             make.left.right.bottom.equalToSuperview()
         }
-        barrageController.view.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
-        barrageController.didMove(toParent: self)
+//        barrageController.view.snp.makeConstraints { make in
+//            make.edges.equalToSuperview()
+//        }
+//        barrageController.didMove(toParent: self)
     }
     
     private func setupNotifications() {
@@ -293,7 +293,7 @@ class VideoPlayerViewController: BaseViewController, VideoPlayerViewProtocol {
 //            }
             
             // 记住弹窗的开关状态
-            self.barrageController.isStop = config.getBool(forKey: "rememberPopupState")
+//            self.barrageController.isStop = config.getBool(forKey: "rememberPopupState")
             
             // 启用便捷操作弹幕
             if config.getBool(forKey: "bulletScreenQuickOperation") {
@@ -303,7 +303,7 @@ class VideoPlayerViewController: BaseViewController, VideoPlayerViewProtocol {
             // 使用推荐的弹幕字体
             if config.getBool(forKey: "bulletScreenRecommendedFont") {
                 // 设置推荐的弹幕字体
-                self.barrageController.defaultColor = UIColor.yellow
+//                self.barrageController.defaultColor = UIColor.yellow
             }
             
             // 启用重力感应旋转屏幕
@@ -450,7 +450,7 @@ class VideoPlayerViewController: BaseViewController, VideoPlayerViewProtocol {
         mediaControl.updateViewForFullScreen(self.isFullScreen)
         guard let view = self.player?.player?.view else { return }
         self.view.insertSubview(view, at: 0)
-        self.player?.player?.view.addSubview(barrageController.view)
+//        self.player?.player?.view.addSubview(barrageController.view)
         player?.play()
         setupConstraints()
         // 更新其他相关视图和数据
@@ -645,11 +645,11 @@ extension VideoPlayerViewController: IJKMediaControlDelegate {
                 window.makeToast("截图完成")
             }
         case .toggleDanmaku:
-            if self.barrageController.isStop == true {
-                self.barrageController.startBarrage()
-            } else {
-                self.barrageController.stopBarrage()
-            }
+//            if self.barrageController.isStop == true {
+//                self.barrageController.startBarrage()
+//            } else {
+//                self.barrageController.stopBarrage()
+//            }
             
             print("Toggle Danmaku button tapped")
             // 处理弹幕显示和隐藏逻辑

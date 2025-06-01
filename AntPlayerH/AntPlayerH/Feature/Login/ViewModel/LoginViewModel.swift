@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import ImSDK_Plus
 
 class LoginViewModel {
     // MARK: - Properties

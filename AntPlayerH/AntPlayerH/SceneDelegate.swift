@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import ScreenshotPreventing
+
 @available(iOS 16.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

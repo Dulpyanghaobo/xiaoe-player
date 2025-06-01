@@ -13,8 +13,8 @@ class AddPersonalNoteView: UIView {
     private let titleLabel = UILabel()
     private let saveButton = UIButton(type: .system)
     private let publishButton = UIButton(type: .system)
-    private let titleTextView = STTextView()
-    private let contentTextView = STTextView()
+    private let titleTextView = UITextView()
+    private let contentTextView = UITextView()
 
     var onSave: ((String, String) -> Void)?
     var onPublish: ((String, String) -> Void)?
@@ -47,14 +47,12 @@ class AddPersonalNoteView: UIView {
         addSubview(publishButton)
 
         // 配置标题输入框
-        titleTextView.placeholder = "输入标题"
-        titleTextView.placeholderColor = .lightGray
+        titleTextView.text = "输入标题"
         titleTextView.font = UIFont.systemFont(ofSize: 18)
         addSubview(titleTextView)
 
         // 配置内容输入框
-        contentTextView.placeholder = "写点什么..."
-        contentTextView.placeholderColor = .lightGray
+        contentTextView.text = "写点什么..."
         contentTextView.font = UIFont.systemFont(ofSize: 16)
         addSubview(contentTextView)
 

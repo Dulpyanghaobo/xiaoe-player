@@ -29,8 +29,7 @@ class CommentInputView: UIView {
         self.backgroundColor = .white
         // 配置 textView
         textView.font = AppFonts.primaryDesc2Font
-        textView.placeholder = "说点什么吧~"
-        textView.placeholderColor = AppColors.primpary808080Color
+        textView.text = "说点什么吧~"
         textView.backgroundColor = AppColors.primparyF7F7F7Color
         textView.delegate = self
         addSubview(textView)

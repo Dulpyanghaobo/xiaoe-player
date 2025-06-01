@@ -32,11 +32,10 @@ class ContactInfoCell: UITableViewCell {
             make.height.equalTo(50)
         }
         contactTextView.delegate = self
-        contactTextView.placeholderColor = .secondaryLabel
     }
 
     func configure(with text: String) {
-        contactTextView.placeholder = text
+        contactTextView.text = text
     }
     
     func textViewDidBeginEditing(_ textView: UITextView) {

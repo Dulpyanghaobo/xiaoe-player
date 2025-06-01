@@ -32,8 +32,7 @@ class BulletCommentInputView: UIView {
         self.backgroundColor = UIColor.init(hex: "F4F4F4")
         // 配置 textView
         textView.font = AppFonts.primaryDesc2Font
-        textView.placeholder = "发个友善的弹幕见证当下"
-        textView.placeholderColor = AppColors.primpary808080Color
+        textView.text = "发个友善的弹幕见证当下"
         textView.backgroundColor = AppColors.primparyF7F7F7Color
         textView.delegate = self
         addSubview(textView)

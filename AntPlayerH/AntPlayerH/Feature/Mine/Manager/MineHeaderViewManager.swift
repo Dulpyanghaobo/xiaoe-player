@@ -20,7 +20,7 @@ import UIKit
 class MineHeaderViewManager {
     weak var delegate: MineHeaderViewManagerDelegate?
 
-    func createHeaderView() -> UIView {
+    @MainActor func createHeaderView() -> UIView {
         let headerContainerView = UIView()
         let backgourdImageView02 = UIImageView(image: UIImage(named: "mine_background_icon_01"))
         headerContainerView.addSubview(backgourdImageView02)

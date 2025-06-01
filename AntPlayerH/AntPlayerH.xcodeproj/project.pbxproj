@@ -8,8 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		67C4DA28024296FE16CE1B6C /* Pods_AntPlayerH_AntPlayerHUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16FAB39D4560FC130225F6E /* Pods_AntPlayerH_AntPlayerHUITests.framework */; };
-		7AE2292463D9D21B9AF0A2B3 /* Pods_AntPlayerH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A704E042F8AE21029A47EF /* Pods_AntPlayerH.framework */; };
 		D0B94F7A1C37F79BB1854A35 /* Pods_AntPlayerHTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0A904D06158A31EECF5674 /* Pods_AntPlayerHTests.framework */; };
+		FA50EABC2DEBF6D500446224 /* XLActionController in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EABB2DEBF6D500446224 /* XLActionController */; };
+		FA50EABE2DEBF6F100446224 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EABD2DEBF6F100446224 /* SnapKit */; };
+		FA50EAC02DEBF72600446224 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EABF2DEBF72600446224 /* Toast */; };
+		FA50EAC22DEBF73A00446224 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EAC12DEBF73A00446224 /* Moya */; };
+		FA50EAC42DEBF74600446224 /* JXSegmentedView in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EAC32DEBF74600446224 /* JXSegmentedView */; };
+		FA50EAC72DEBF79300446224 /* STTextView in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EAC62DEBF79300446224 /* STTextView */; };
+		FA50EAC92DEBF7A600446224 /* ZVRefreshing in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EAC82DEBF7A600446224 /* ZVRefreshing */; };
+		FA50EACB2DEBF7C200446224 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EACA2DEBF7C200446224 /* Kingfisher */; };
+		FA50EACD2DEBF83500446224 /* Tiercel in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EACC2DEBF83500446224 /* Tiercel */; };
+		FA50EAD02DEBF8D000446224 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EACF2DEBF8D000446224 /* SwiftyJSON */; };
+		FA50EAD32DEBF90800446224 /* ScreenshotPreventing in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EAD22DEBF90800446224 /* ScreenshotPreventing */; };
+		FA50EAD62DEBF96000446224 /* AHDownloadButton in Frameworks */ = {isa = PBXBuildFile; productRef = FA50EAD52DEBF96000446224 /* AHDownloadButton */; };
 		FA57E0742C46A64800602342 /* AntPlayerHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA57E0732C46A64800602342 /* AntPlayerHTests.swift */; };
 		FA57E07E2C46A64800602342 /* AntPlayerHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA57E07D2C46A64800602342 /* AntPlayerHUITests.swift */; };
 		FA57E0802C46A64800602342 /* AntPlayerHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA57E07F2C46A64800602342 /* AntPlayerHUITestsLaunchTests.swift */; };
@@ -82,14 +93,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		58554D2FE4AC7477853CDF35 /* Pods-AntPlayerHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntPlayerHTests.debug.xcconfig"; path = "Target Support Files/Pods-AntPlayerHTests/Pods-AntPlayerHTests.debug.xcconfig"; sourceTree = "<group>"; };
-		88CEAEF2C044B97B2C525DD3 /* Pods-AntPlayerH-AntPlayerHUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntPlayerH-AntPlayerHUITests.debug.xcconfig"; path = "Target Support Files/Pods-AntPlayerH-AntPlayerHUITests/Pods-AntPlayerH-AntPlayerHUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B7387D96F59DAA70D38B4E13 /* Pods-AntPlayerH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntPlayerH.debug.xcconfig"; path = "Target Support Files/Pods-AntPlayerH/Pods-AntPlayerH.debug.xcconfig"; sourceTree = "<group>"; };
 		BC0A904D06158A31EECF5674 /* Pods_AntPlayerHTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntPlayerHTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0EF00EFE741D32B86359FAC /* Pods-AntPlayerH-AntPlayerHUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntPlayerH-AntPlayerHUITests.release.xcconfig"; path = "Target Support Files/Pods-AntPlayerH-AntPlayerHUITests/Pods-AntPlayerH-AntPlayerHUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C3A704E042F8AE21029A47EF /* Pods_AntPlayerH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntPlayerH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7F2F19A635BD4B1D09F6A4E /* Pods-AntPlayerH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntPlayerH.release.xcconfig"; path = "Target Support Files/Pods-AntPlayerH/Pods-AntPlayerH.release.xcconfig"; sourceTree = "<group>"; };
-		DDB4FF9BA0132A57AF74F7D5 /* Pods-AntPlayerHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntPlayerHTests.release.xcconfig"; path = "Target Support Files/Pods-AntPlayerHTests/Pods-AntPlayerHTests.release.xcconfig"; sourceTree = "<group>"; };
 		F16FAB39D4560FC130225F6E /* Pods_AntPlayerH_AntPlayerHUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntPlayerH_AntPlayerHUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA57E0562C46A64600602342 /* AntPlayerH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntPlayerH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA57E06F2C46A64800602342 /* AntPlayerHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntPlayerHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -477,11 +482,18 @@
 				FACD2ED92DE9E899000E071B /* IJKMediaFramework.framework in Frameworks */,
 				FABDEBBA2C4F7E0A0049CD4E /* CoreGraphics.framework in Frameworks */,
 				FAAA86B12C6B3C9C00D4E23D /* CoreText.framework in Frameworks */,
+				FA50EABC2DEBF6D500446224 /* XLActionController in Frameworks */,
 				FAFD3C292C5E1CF6003E8B84 /* WebKit.framework in Frameworks */,
+				FA50EAC72DEBF79300446224 /* STTextView in Frameworks */,
 				FAFD3C272C5E1CEF003E8B84 /* Accelerate.framework in Frameworks */,
+				FA50EACD2DEBF83500446224 /* Tiercel in Frameworks */,
+				FA50EAC22DEBF73A00446224 /* Moya in Frameworks */,
 				FAFD3C252C5E1CE0003E8B84 /* ImageIO.framework in Frameworks */,
+				FA50EAD02DEBF8D000446224 /* SwiftyJSON in Frameworks */,
+				FA50EAC42DEBF74600446224 /* JXSegmentedView in Frameworks */,
 				FAFD3C232C5E1CD8003E8B84 /* CoreTelephony.framework in Frameworks */,
 				FAFD3C212C5E1CCE003E8B84 /* SystemConfiguration.framework in Frameworks */,
+				FA50EABE2DEBF6F100446224 /* SnapKit in Frameworks */,
 				FAFD3C1F2C5E1CC9003E8B84 /* Security.framework in Frameworks */,
 				FABDEBBE2C4F7E150049CD4E /* CoreVideo.framework in Frameworks */,
 				FAE5308E2C4F807500DA1832 /* libc++.tbd in Frameworks */,
@@ -492,10 +504,14 @@
 				FABDEBC42C4F7E270049CD4E /* MediaPlayer.framework in Frameworks */,
 				FABDEBC22C4F7E220049CD4E /* libz.tbd in Frameworks */,
 				FABDEBC02C4F7E1D0049CD4E /* libbz2.tbd in Frameworks */,
+				FA50EAC92DEBF7A600446224 /* ZVRefreshing in Frameworks */,
+				FA50EACB2DEBF7C200446224 /* Kingfisher in Frameworks */,
 				FABDEBBC2C4F7E100049CD4E /* CoreMedia.framework in Frameworks */,
 				FABDEBB82C4F7E050049CD4E /* AVFoundation.framework in Frameworks */,
+				FA50EAD62DEBF96000446224 /* AHDownloadButton in Frameworks */,
 				FABDEBB62C4F7DFD0049CD4E /* AudioToolbox.framework in Frameworks */,
-				7AE2292463D9D21B9AF0A2B3 /* Pods_AntPlayerH.framework in Frameworks */,
+				FA50EAC02DEBF72600446224 /* Toast in Frameworks */,
+				FA50EAD32DEBF90800446224 /* ScreenshotPreventing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,19 +534,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7DA4EAF4E5373A5DCFDB374C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B7387D96F59DAA70D38B4E13 /* Pods-AntPlayerH.debug.xcconfig */,
-				D7F2F19A635BD4B1D09F6A4E /* Pods-AntPlayerH.release.xcconfig */,
-				88CEAEF2C044B97B2C525DD3 /* Pods-AntPlayerH-AntPlayerHUITests.debug.xcconfig */,
-				C0EF00EFE741D32B86359FAC /* Pods-AntPlayerH-AntPlayerHUITests.release.xcconfig */,
-				58554D2FE4AC7477853CDF35 /* Pods-AntPlayerHTests.debug.xcconfig */,
-				DDB4FF9BA0132A57AF74F7D5 /* Pods-AntPlayerHTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		8F18E1E32F2386182CE2282D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,7 +574,6 @@
 				FA57E0722C46A64800602342 /* AntPlayerHTests */,
 				FA57E07C2C46A64800602342 /* AntPlayerHUITests */,
 				FA57E0572C46A64600602342 /* Products */,
-				7DA4EAF4E5373A5DCFDB374C /* Pods */,
 				8F18E1E32F2386182CE2282D /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -709,6 +711,20 @@
 				Base,
 			);
 			mainGroup = FA57E04D2C46A64600602342;
+			packageReferences = (
+				FA50EAB22DEBEBEE00446224 /* XCRemoteSwiftPackageReference "Moya" */,
+				FA50EAB32DEBEC1800446224 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FA50EAB42DEBEC3400446224 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FA50EAB52DEBEC6700446224 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				FA50EAB62DEBEC8000446224 /* XCRemoteSwiftPackageReference "ZVRefreshing" */,
+				FA50EAB72DEBECA600446224 /* XCRemoteSwiftPackageReference "XLActionController" */,
+				FA50EAB82DEBEEC500446224 /* XCRemoteSwiftPackageReference "Tiercel" */,
+				FA50EAB92DEBEF0700446224 /* XCRemoteSwiftPackageReference "JXSegmentedView" */,
+				FA50EAC52DEBF78200446224 /* XCRemoteSwiftPackageReference "STTextView" */,
+				FA50EACE2DEBF8C100446224 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				FA50EAD12DEBF90000446224 /* XCRemoteSwiftPackageReference "ScreenshotPreventing-iOS" */,
+				FA50EAD42DEBF95900446224 /* XCRemoteSwiftPackageReference "AHDownloadButton" */,
+			);
 			preferredProjectObjectVersion = 56;
 			productRefGroup = FA57E0572C46A64600602342 /* Products */;
 			projectDirPath = "";
@@ -804,19 +820,18 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AntPlayerH/Pods-AntPlayerH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			inputPaths = (
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AntPlayerH/Pods-AntPlayerH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AntPlayerH/Pods-AntPlayerH-frameworks.sh\"\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 		365DA5AB9A21B8D4EEF7F3CE /* [CP] Embed Pods Frameworks */ = {
@@ -846,19 +861,20 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AntPlayerH/Pods-AntPlayerH-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"",
 			);
 			inputPaths = (
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AntPlayerH/Pods-AntPlayerH-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AntPlayerH/Pods-AntPlayerH-resources.sh\"\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 		E6FB9C5605D9C9B86033D38E /* [CP] Copy Pods Resources */ = {
@@ -912,18 +928,17 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AntPlayerH-checkManifestLockResult.txt",
+				"",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1095,7 +1110,6 @@
 		};
 		FA57E0842C46A64800602342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7387D96F59DAA70D38B4E13 /* Pods-AntPlayerH.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1126,53 +1140,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					"\"Accelerate\"",
-					"-framework",
-					"\"Alamofire\"",
-					"-framework",
-					"\"CFNetwork\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"ImSDK_Plus\"",
-					"-framework",
-					"\"Kingfisher\"",
-					"-framework",
-					"\"Moya\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"RxCocoa\"",
-					"-framework",
-					"\"RxRelay\"",
-					"-framework",
-					"\"RxSwift\"",
-					"-framework",
-					"\"STTextView\"",
-					"-framework",
-					"\"SnapKit\"",
-					"-framework",
-					"\"SwiftyJSON\"",
-					"-framework",
-					"\"Toast_Swift\"",
-					"-framework",
-					"\"UIKit\"",
-					"-framework",
-					"\"XLActionController\"",
-					"-framework",
-					"\"ZVActivityIndicatorView\"",
-					"-framework",
-					"\"ZVRefreshing\"",
-					"-weak_framework",
-					"\"Combine\"",
-					"-weak_framework",
-					"\"SwiftUI\"",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cp.aaaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1186,7 +1154,6 @@
 		};
 		FA57E0852C46A64800602342 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7F2F19A635BD4B1D09F6A4E /* Pods-AntPlayerH.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1217,53 +1184,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					"\"Accelerate\"",
-					"-framework",
-					"\"Alamofire\"",
-					"-framework",
-					"\"CFNetwork\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"ImSDK_Plus\"",
-					"-framework",
-					"\"Kingfisher\"",
-					"-framework",
-					"\"Moya\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"RxCocoa\"",
-					"-framework",
-					"\"RxRelay\"",
-					"-framework",
-					"\"RxSwift\"",
-					"-framework",
-					"\"STTextView\"",
-					"-framework",
-					"\"SnapKit\"",
-					"-framework",
-					"\"SwiftyJSON\"",
-					"-framework",
-					"\"Toast_Swift\"",
-					"-framework",
-					"\"UIKit\"",
-					"-framework",
-					"\"XLActionController\"",
-					"-framework",
-					"\"ZVActivityIndicatorView\"",
-					"-framework",
-					"\"ZVRefreshing\"",
-					"-weak_framework",
-					"\"Combine\"",
-					"-weak_framework",
-					"\"SwiftUI\"",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cp.aaaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1276,7 +1197,6 @@
 		};
 		FA57E0872C46A64800602342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58554D2FE4AC7477853CDF35 /* Pods-AntPlayerHTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1298,7 +1218,6 @@
 		};
 		FA57E0882C46A64800602342 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDB4FF9BA0132A57AF74F7D5 /* Pods-AntPlayerHTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1320,7 +1239,6 @@
 		};
 		FA57E08A2C46A64800602342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88CEAEF2C044B97B2C525DD3 /* Pods-AntPlayerH-AntPlayerHUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1339,7 +1257,6 @@
 		};
 		FA57E08B2C46A64800602342 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0EF00EFE741D32B86359FAC /* Pods-AntPlayerH-AntPlayerHUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1396,6 +1313,168 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA50EAB22DEBEBEE00446224 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		FA50EAB32DEBEC1800446224 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+		FA50EAB42DEBEC3400446224 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		FA50EAB52DEBEC6700446224 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		FA50EAB62DEBEC8000446224 /* XCRemoteSwiftPackageReference "ZVRefreshing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:zevwings/ZVRefreshing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+		FA50EAB72DEBECA600446224 /* XCRemoteSwiftPackageReference "XLActionController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:xmartlabs/XLActionController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		FA50EAB82DEBEEC500446224 /* XCRemoteSwiftPackageReference "Tiercel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Danie1s/Tiercel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.6;
+			};
+		};
+		FA50EAB92DEBEF0700446224 /* XCRemoteSwiftPackageReference "JXSegmentedView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:pujiaxin33/JXSegmentedView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+		FA50EAC52DEBF78200446224 /* XCRemoteSwiftPackageReference "STTextView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/STTextView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FA50EACE2DEBF8C100446224 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		FA50EAD12DEBF90000446224 /* XCRemoteSwiftPackageReference "ScreenshotPreventing-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:yoxisem544/ScreenshotPreventing-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		FA50EAD42DEBF95900446224 /* XCRemoteSwiftPackageReference "AHDownloadButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:amerhukic/AHDownloadButton.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA50EABB2DEBF6D500446224 /* XLActionController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAB72DEBECA600446224 /* XCRemoteSwiftPackageReference "XLActionController" */;
+			productName = XLActionController;
+		};
+		FA50EABD2DEBF6F100446224 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAB42DEBEC3400446224 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FA50EABF2DEBF72600446224 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAB52DEBEC6700446224 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		FA50EAC12DEBF73A00446224 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAB22DEBEBEE00446224 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		FA50EAC32DEBF74600446224 /* JXSegmentedView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAB92DEBEF0700446224 /* XCRemoteSwiftPackageReference "JXSegmentedView" */;
+			productName = JXSegmentedView;
+		};
+		FA50EAC62DEBF79300446224 /* STTextView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAC52DEBF78200446224 /* XCRemoteSwiftPackageReference "STTextView" */;
+			productName = STTextView;
+		};
+		FA50EAC82DEBF7A600446224 /* ZVRefreshing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAB62DEBEC8000446224 /* XCRemoteSwiftPackageReference "ZVRefreshing" */;
+			productName = ZVRefreshing;
+		};
+		FA50EACA2DEBF7C200446224 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAB32DEBEC1800446224 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FA50EACC2DEBF83500446224 /* Tiercel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAB82DEBEEC500446224 /* XCRemoteSwiftPackageReference "Tiercel" */;
+			productName = Tiercel;
+		};
+		FA50EACF2DEBF8D000446224 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EACE2DEBF8C100446224 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		FA50EAD22DEBF90800446224 /* ScreenshotPreventing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAD12DEBF90000446224 /* XCRemoteSwiftPackageReference "ScreenshotPreventing-iOS" */;
+			productName = ScreenshotPreventing;
+		};
+		FA50EAD52DEBF96000446224 /* AHDownloadButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA50EAD42DEBF95900446224 /* XCRemoteSwiftPackageReference "AHDownloadButton" */;
+			productName = AHDownloadButton;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA57E04E2C46A64600602342 /* Project object */;
 }
